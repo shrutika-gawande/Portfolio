@@ -1,0 +1,11 @@
+body{
+    background: url(./Polish_20241213_172256962.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width:1000px) {
+    body{
+        height: 100px;
+    }
+}

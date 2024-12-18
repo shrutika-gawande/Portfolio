@@ -1,0 +1,73 @@
+
+body{
+    background-image: url("./img/Polish_20241213_171808904.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+section h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10rem;
+}
+.tech1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+.tech2{
+     text-align: center;
+     line-height: 3rem;
+     font-size: larger;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    gap: 3rem; 
+    margin-left: 3rem;
+}
+.image > img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;   
+}
+.name{
+    width: 400px;
+} 
+
+ @media (max-width: 1000px) {
+    .profile{
+        margin-left: 0; 
+        gap: 1rem;
+   }
+   body{
+        font-size: small;
+        position: relative;
+   }
+   .skill{
+    gap: 0;
+   }
+   .tech1{
+    margin-top: 1rem;
+    margin-left: 0;
+   }
+   .tech2{
+        width: 12rem;
+   }
+   .image > img{
+        height: 150px;
+        width: 150px;
+   }
+   .name{
+    width: 300px;
+} 
+}
